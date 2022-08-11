@@ -51,6 +51,7 @@ def contact(request):
 
 
 # test
+# test2
 
 def pageNotFound(request, exception):
     return HttpResponseNotFound('<h1>Страница не найдена</h1>')

@@ -15,7 +15,7 @@ class WomenAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug': ('title',)}
     fields = ('title', 'slug', 'cat', 'content', 'photo', 'get_html_photo', 'is_published', 'time_create', 'time_update')
     readonly_fields = ('time_create', 'time_update', 'get_html_photo')
-    save_on_top = True  
+    save_on_top = True
 
 
     def get_html_photo(self, objekt):
